@@ -11,7 +11,7 @@ os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
 os.environ["LANGCHAIN_TRACING_v2"] = "true"
 os.environ["LANGCHAIN_PROJECT"] = os.getenv("LANGCHAIN_PROJECT")
 
-groq_api_key = os.getenv("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")
+
 
 promt = ChatPromptTemplate(
     [
